@@ -1,3 +1,9 @@
 [build]
 base="/"
 publish="src/app.js"
+command="npm run build"
+functions="public/templates/utils/"
+[[redirects]]
+from="/*"
+to="/index.html"
+status=200
